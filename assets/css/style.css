@@ -919,7 +919,7 @@ Nav Menu style
     background: url(../images/background/services-bg.jpg) no-repeat bottom center;
 }
 .model-banner{
-    background: url(../images/background/model-bg.jpg) no-repeat bottom center;
+    background: url(../images/Home/qc-1.jpg) no-repeat bottom center;
 }
 .contact-banner{
     background: url(../images/background/contact-bg.jpg) no-repeat bottom center;
@@ -1276,7 +1276,7 @@ Brand Section style
 
 
 /*
-Models Section style
+portfolio Section style
 =====================*/
 
 .main_models{}
@@ -1583,7 +1583,7 @@ Footer Section style
 	left:50%;
 	top: 35%;
     margin-left: -80px;
-	color:#fff;
+	color:#f7f7f7;
 	border-color:#fff;
 	opacity:0;
 }
