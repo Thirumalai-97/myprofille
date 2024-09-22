@@ -925,7 +925,8 @@ Nav Menu style
     background: url(../images/background/contact-bg.jpg) no-repeat bottom center;
 }
 .about-banner{
-    background: url(../images/background/about-bg.jpg) no-repeat bottom center;
+    background: url(../images/About/iit2.jpeg) no-repeat center center;
+    background-size: cover; 
 }
 .blog-banner{
     background: url(../images/background/blog-bg.jpg) no-repeat bottom center;
@@ -1448,7 +1449,8 @@ Footer Section style
 ===============================*/
 .sv_feature_item img,
 .ab_feature_item img{
-    width:100%;
+    width:140%;
+    height: 190px;
 }
 
 
@@ -1460,11 +1462,14 @@ Footer Section style
     transform: scale(1.1);
 }
 .team_img{
-    position: relative;
+    position: center;
     overflow: hidden;
+    width: 106%; /* Ensures the container takes up full width */
+    height: 550px; /* Set a fixed height for the container */
 }
 .team_img img{
     width:100%;
+    height: 100%;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -o-transition: all 0.6s;
@@ -1472,11 +1477,11 @@ Footer Section style
 
 }
 .team_caption{
-    width:80%;
+    width:90%;
     position: absolute;
-    left:0;
+    left: 20px;
     bottom:0;
-    background-color: rgba(255,255,255,0.55);
+    background-color: rgba(0, 0, 0, 0.55);
     padding:1rem;
 }
 .team_caption h4{
@@ -1487,6 +1492,8 @@ Footer Section style
 .team_caption h5{
     margin-bottom: 5px;
     line-height: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 
