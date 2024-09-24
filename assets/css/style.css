@@ -353,6 +353,14 @@ Separator
     margin:20px 0px;
     background: #000;
 }
+
+.separator_right{
+    width:85px;
+    height:2px;
+    margin:0px 20px;
+    background: #000;
+}
+
 .separator_auto{
     width:85px;
     height:2px;
@@ -1021,7 +1029,7 @@ About section style
     top: 43%;
     width: 180px;
     height: 1px;
-    background-color: #ee997b;
+    background-color: #000000;
     z-index: 1;
 }
 .work_separator2:before{
