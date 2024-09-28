@@ -771,6 +771,17 @@ textarea::-ms-input-placeholder{
     font-size:1rem;
     color:#4a4a4a;
 }
+.center-align {
+    text-align: center;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
 
 /*End off pridifain css*/
 
